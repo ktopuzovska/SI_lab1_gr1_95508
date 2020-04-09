@@ -1,0 +1,61 @@
+//Сите искористени команди со објаснување на чекорите
+git clone https://github.com/finkiSI/SI_lab1_gr1.git
+git clone https://github.com/ktopuzovska/SI_lab1_gr1_95508.git
+git commit "Initial commit"
+git push
+git fetch
+git commmit "students.csv file added"
+git push
+git fetch
+git commit "lab points variable added"
+git push 
+git fetch
+git commit "student class finished"
+git push
+git fetch
+git git checkout -b courseFeature
+git commit "added Course class and updated students list"
+git push
+git fetch
+git checkout master
+git merge courseFeature 
+//Не настанаа никакви проблеми при спојувањето
+git fetch
+
+
+
+// Историјата на сите commits (добиени со командата git log)
+
+commit dbd4f4d8f6682067ed4435cafc6e8bc977918d90 (HEAD -> master, origin/master, origin/courseFeature, courseFeature)
+Author: ktopuzovska <katerina.topuzovska@gmail.com>
+Date:   Thu Apr 9 20:54:12 2020 +0200
+
+    added Course class and updated students list
+
+commit 76d33c15accb15d2c0a5c99b3886321f4c240ea5
+Author: ktopuzovska <katerina.topuzovska@gmail.com>
+Date:   Thu Apr 9 20:27:27 2020 +0200
+
+    student class finished
+
+commit d043fd85e7f6045a9fde751613040de8668b6ce2
+Author: ktopuzovska <katerina.topuzovska@gmail.com>
+Date:   Thu Apr 9 20:08:53 2020 +0200
+
+    lab points variable added
+
+commit a53c48e69c2523df1e32f4fc2a5baea04a93a02b
+Author: ktopuzovska <katerina.topuzovska@gmail.com>
+Date:   Thu Apr 9 20:04:03 2020 +0200
+
+    students.csv file added
+
+commit 2daaf869794db6385450f2cce8ee11bf4570bb1d
+Author: ktopuzovska <katerina.topuzovska@gmail.com>
+Date:   Thu Apr 9 19:58:08 2020 +0200
+
+    Initial commit
+
+
+//Линк до вашиот github репозиториум (внимавајте да биде јавен)
+https://github.com/ktopuzovska/SI_lab1_gr1_95508
